@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { Input } from "./ui/input"
-import { Button } from "./ui/button"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip"
 import { HelpCircle } from "lucide-react"
 
