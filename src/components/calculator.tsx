@@ -218,16 +218,6 @@ export function Calculator() {
                 </p>
                 <p className="text-lg font-semibold">{formatNumber(results.drr)}%</p>
               </div>
-              <div>
-                <p className="text-sm text-gray-500">
-                  CPR
-                  <MetricTooltip
-                    title="CPR (Cost Per Revenue)"
-                    description="Показывает, сколько рублей рекламы мы потратили на один заказ. Например, CPR 1000₽ означает, что каждый заказ нам обошелся в 1000 рублей рекламы. Чем меньше этот показатель, тем эффективнее реклама. Формула: Стоимость рекламы / Количество заказов"
-                  />
-                </p>
-                <p className="text-lg font-semibold">{formatNumber(results.cpr)} ₽</p>
-              </div>
             </div>
           </div>
         </div>
